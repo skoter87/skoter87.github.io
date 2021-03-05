@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu-list a {
+    color: #7f7f7f;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    min-height: 87px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu-list {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.menu-list li {
+    margin-left: 37px;
+}
+
+.palka {
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.header {
+    height: 101px;
+}
+
+.logo1 {
+    margin-bottom: 45px;
+}
+
+.korzina {
+    margin-top: -10px;
+    margin-left: 350px;
+}
+
+.top {
+    max-width: 1500px;
+    height: 430px;
+    background-color: #edecec;
+}
+
+.top-info__title {
+    padding-top: 137px;
+    padding-left: 289px;
+}
+
+.top-info__subtitle {
+    padding-top: 49px;
+    padding-left: 289px;
+}
+
+.top-info__btn {
+    color: #65889b;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "S, hop Now" */
+    font-style: normal;
+    letter-spacing: 1.26px;
+    line-height: normal;
+    
+    margin-left: 290px;
+    margin-top: 41px;
+    border: 10px solid #fff;
+    background: #fff;
+    width: 212px;
+    height: 50px;
+    
+    
+}
